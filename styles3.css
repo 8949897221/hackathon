@@ -1,0 +1,70 @@
+body {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background: url("c:\Users\Asus\Downloads\Untitled design.png");
+}
+
+.chat-container {
+    display:block;
+    max-width: 40%;
+    bottom:500;
+    margin: auto;
+    
+     align-items:center;
+    justify-content: center; 
+   
+}
+
+#messages {
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#myVideo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 100%;
+    z-index: -100;
+    object-fit:cover;
+  }
+  
+
+#message-input {
+    width: calc(100% - 75px);
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.chat-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.chat-btn:hover {
+    transform: translateY(-2px);
+}
+
+.send-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.send-btn:hover {
+    background-color: #0056b3;
+}
+
+.location-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.location-btn:hover {
+    background-color: #218838;
+}
